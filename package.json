@@ -1,6 +1,6 @@
 {
   "name": "adriana-sample-app-module-1",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,10 +19,10 @@
     "web-vitals": "^2.1.4"
   },
   "peerDependencies": {
-    "react": ">=18",
-    "sample-app-shared": "^0.1.4",
     "adriana-sample-app-common-module-1": "^0.1.0",
-    "adriana-sample-app-common-module-2": "^0.1.0"
+    "adriana-sample-app-common-module-2": "^0.1.0",
+    "react": ">=18",
+    "sample-app-shared": "^0.1.4"
   },
   "files": [
     "dist",
@@ -55,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "clear": "^0.1.0"
   }
 }
